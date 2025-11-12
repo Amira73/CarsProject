@@ -1,0 +1,33 @@
+.framebg{
+      margin: -20px;
+    height: 100%;
+   background-image: url("../../assets/images/frame2.png");
+  background-size: 50% 100%;   
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+ 
+
+  
+    
+ }
+  .btnsec{
+     color: #1572d3 !important;
+  }
+ .btnsecbg{
+  color: #1572d3 !important;
+  background-color:#e8f1fb !important;
+  margin: auto;
+
+}
+.container{
+  display: flex !important;
+
+   margin-top: 35%;
+   flex-direction:column; 
+   justify-content:center;
+  
+ 
+}
+.w35 {
+  width: 35%;
+}

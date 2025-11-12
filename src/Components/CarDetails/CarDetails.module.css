@@ -1,0 +1,50 @@
+.framebg{
+      margin: -20px;
+    height: 800px;
+   background-image: url("../../assets/images/frame2.png");
+  background-size: 50% 100%;   
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+ 
+
+  
+    
+ }
+ .btnsecbg{
+  color: #1572d3 !important;
+  background-color:#e8f1fb !important;
+  margin: auto;
+
+}
+.container{
+  display: flex !important;
+
+   margin-top: 35%;
+   flex-direction:column; 
+   justify-content:center;
+  
+ 
+}
+.ulcarfeatures {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #a6adb8; 
+  font-size: 15px;
+  line-height: 1.6;
+ 
+}
+
+.carfeaturesli{
+
+ 
+  display: flex;
+  align-items: center;
+ gap: 30px;
+  margin-bottom: 12px;
+}
+.flexul{
+  display: flex !important;
+  list-style: none;
+
+}

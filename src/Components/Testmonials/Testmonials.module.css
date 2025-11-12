@@ -1,0 +1,23 @@
+.btnsecbg{
+  color: #1572d3 !important;
+  background-color:#e8f1fb !important;
+  margin: auto;
+
+}
+.framebg{
+      margin: -20px;
+    height: 100%;
+   background-image: url("../../assets/images/frame2.png");
+  background-size: 50% 100%;   
+  background-repeat: auto;
+
+ 
+
+  
+    
+ }
+ .flexul{
+  display: flex !important;
+  list-style: none;
+
+}

@@ -1,0 +1,44 @@
+.btnbg{
+    background-color: #1572d3 !important;
+    color: white !important;
+}
+.divflex{
+    display: flex !important;
+   
+    justify-content: center !important;
+}
+
+.btnsecbg{
+  color: #1572d3 !important;
+  background-color:#e8f1fb !important;
+  margin: auto;
+
+}
+
+.searchcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.searchinput {
+  width: 50%;
+  padding: 10px 20px;
+  padding-left: 30px; /* مساحة للأيقونة */
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  position: relative;
+}
+
+.search-input::before {
+  content: "\1F50D";  /* Unicode for the search icon */
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #888;
+}

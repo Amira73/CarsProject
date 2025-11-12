@@ -1,0 +1,12 @@
+.welcomebg{
+      margin: 0;
+    height: 800px;
+   background-image: url("../../assets/images/frame.png");
+  background-size: 50% 100%;   /* 50% العرض، 100% الارتفاع */
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+ 
+
+  
+    
+ }

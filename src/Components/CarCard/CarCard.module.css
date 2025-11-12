@@ -1,0 +1,35 @@
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 25px 40px rgba(0,0,0,.05);
+  transition: .25s;
+}
+.card:hover { transform: translateY(-4px); }
+.carImg { width: 100%; height: auto; display: block; margin-bottom: 10px; overflow: hidden;}
+.title { font-size: 20px; font-weight: 600; margin: 8px 0; }
+
+.rating { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+.star { color: #fbbc05; }
+.score { font-weight: 600; }
+.reviews { color: #8a8a8a; font-size: 14px; }
+
+.features { margin: 10px 0 18px; }
+.featureItem { color: #8a8a8a; font-size: 14px; margin-bottom: 6px; display: flex; gap: 8px; }
+
+.priceSection { display: flex; align-items: baseline; gap: 6px; margin-bottom: 16px; }
+.priceLabel { color: #8a8a8a; font-size: 16px; }
+.price { font-size: 16px; font-weight: 800;  }
+.perDay { color: #8a8a8a;  font-size: 16px;}
+
+.rentBtn {
+  width: 100%; padding: 12px; border: 0; border-radius: 12px;
+  background: #0e6dfd; color: #fff; font-size: 16px; cursor: pointer;
+}
+.rentBtn:hover { background: #0753c7; }
+.rowbetween {
+ align-items: center;
+  display: flex !important;
+  justify-content: space-between !important; 
+  width: 100%;                    
+}

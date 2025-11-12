@@ -1,0 +1,48 @@
+/* infinite-loop.css */
+.logo-loop {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  --loop-gap: 48px;
+  --logo-h: 48px;
+  --loop-duration: 20s;
+}
+
+.logo-track {
+  display: flex;
+  align-items: center;
+  gap: var(--loop-gap);
+  /* duplicate width; translate by half to loop seamlessly */
+  width: max-content;
+  animation: scroll var(--loop-duration) linear infinite;
+}
+
+.logo-loop--pause:hover .logo-track {
+  animation-play-state: paused;
+}
+
+.logo-item img {
+  height: var(--logo-h);
+  width: auto;
+  display: block;
+  object-fit: contain;
+  filter: saturate(1) contrast(1);
+}
+
+/* seamless marquee */
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(calc(-50%)); }
+}
+
+/* edge fades (optional) */
+.logo-fade {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 80px;
+  pointer-events: none;
+}
+.logo-fade.left  { left: 0; background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0)); }
+.logo-fade.right { right: 0; background: linear-gradient(to left,  rgba(255,255,255,1), rgba(255,255,255,0)); }
+
+/* Dark backgrounds? swap to rgba(0,0,0,1) in the gradients */
